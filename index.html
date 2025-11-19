@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI วิเคราะห์ภาษามือ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🤖 AI วิเคราะห์ภาษามือ</h1>
+
+  <div class="frame" id="imageFrame">
+    <span>ยังไม่มีรูปภาพ</span>
+  </div>
+
+  <input type="file" id="fileInput" accept="image/*" hidden />
+  <button class="upload-btn" id="uploadBtn">ค้นหารูป</button>
+
+  <div class="progress-container" id="progressContainer">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <div class="result" id="resultBox">ผลการวิเคราะห์จะปรากฏที่นี่...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
